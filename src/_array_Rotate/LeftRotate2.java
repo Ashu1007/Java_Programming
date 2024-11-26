@@ -6,14 +6,14 @@ public class LeftRotate2 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int[] a= {12,13,14,15,16};
-		System.out.print("Elements Before Rotation: ");
+		System.out.print("Elements Before Left Rotation: ");
 		for(int x:a) {
 			System.out.print(x+" ");
 		}
 		System.out.print("\nEnter the Rotation: ");
 		int n=sc.nextInt();
 		rotateArray(a,n);
-		System.out.print("\nElement After Rotation: ");
+		System.out.print("\nElement After Left Rotation: ");
 		for(int x:a) {
 			System.out.print(x+" ");
 		}
